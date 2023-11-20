@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mainPageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2c0e3a;
+}
+.WebsiteLogo {
+  width: 150px;
+  height: 50px;
+}
+.scoreAndTimeContainer {
+  display: flex;
+  color: white;
+}
+.ScoreHeading {
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+}
+.timeHeading {
+  font-size: 20px;
+  color: #fec653;
+  font-weight: bold;
+}
+.timerImage {
+  width: 30px;
+  height: 30px;
+}
+.timerCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scoreCount {
+  color: #fec653;
+  font-weight: bold;
+}
+.DetailedCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+}
+.showingImageCard {
+  margin-top: 50px;
+}
+.MainImage {
+  width: 400px;
+  border-radius: 5px;
+}
+.slidesName {
+  display: flex;
+  color: white;
+}
+.slideName {
+  list-style: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.tabButton {
+  list-style: none;
+}
+.activeTabClassName {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
+.thumnailImage {
+  width: 100px;
+  list-style: none;
+}
+.thumbnailContainer {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumButton {
+  margin: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.randomNumber {
+  color: white;
+}
+.winBoardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+}
+.winCardheading {
+  color: white;
+}
+
+.WinCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.trophyImage {
+  width: 250px;
+  margin-top: 100px;
+}
+.yourScore {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.yourScoreHeading {
+  margin-bottom: 2px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.playAgainButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 18px;
+  background-color: #cf60c8;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.resetButtonImage {
+  margin-right: 5px;
+}
+.unorderListNAv {
+  display: flex;
+  margin-right: 10px;
+}
